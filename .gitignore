@@ -1,0 +1,7 @@
+.build/
+.swiftpm/
+*.xcodeproj
+.DS_Store
+# Local tooling (contains machine-specific paths)
+.claude/
+graphify-out/

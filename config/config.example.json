@@ -1,0 +1,8 @@
+{
+  "bindings": [
+    { "gesture": "pinchIn",   "fingers": 3, "action": { "type": "launchApp", "app": "Safari" } },
+    { "gesture": "pinchOut",  "fingers": 3, "action": { "type": "launchApp", "app": "Terminal" } },
+    { "gesture": "swipeLeft", "fingers": 4, "action": { "type": "keyPress", "key": "escape" } },
+    { "gesture": "swipeDown", "fingers": 4, "action": { "type": "click" } }
+  ]
+}

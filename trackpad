@@ -1,0 +1,6 @@
+#!/bin/bash
+# One command to listen for gestures AND configure them: ./trackpad
+# (builds on first use; extra arguments run other commands, e.g. ./trackpad bindings list)
+cd "$(dirname "$0")" || exit 1
+swift build -c release -q -Xswiftc -gnone || exit 1
+exec .build/release/trackpad-gestures "$@"
