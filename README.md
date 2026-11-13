@@ -64,3 +64,7 @@ To press keys or click for you, macOS needs your OK: **System Settings → Priva
 Written in Swift with a small, layered design: each part (touch input, gesture detection, actions, config, terminal commands) is its own module, and adding a new gesture or action means adding one class. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 Contributions and ideas are welcome.
+
+## License
+
+[MIT](LICENSE)
